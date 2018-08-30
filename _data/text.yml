@@ -65,3 +65,32 @@ es-ES:
   <<: *DEFAULT_ES
 es-CL:
   <<: *DEFAULT_ES
+
+# Russin
+# -----------------
+ru: &DEFAULT_RU
+  skip_links: "Пропустить ссылки"
+  skip_primary_nav: "Перейти к основной навигации"
+  skip_content: "Перейти к содержанию"
+  skip_footer: "Перейти к концу"
+  menu_label: "Меню"
+  by: "от"
+  min_read: "мин для прочтения"
+  read_more: "Читать далее&hellip;"
+  categories: "Категории"
+  tags: "Тэги"
+  pages_categorized: "Страницы категории"
+  pages_tagged: "Страницы тегов"
+  table_of_contents: "Содержание"
+  results_found: "Найденные результаты"
+  share: "Поделиться"
+  tweet: "Tweet"
+  next: "Следующий"
+  previous: "Предыдущий"
+  newer: "Новее"
+  older: "Старее"
+  back_to_top: "На верх"
+  search_placeholder_text: "Введите запрос..."
+  powered_by: "Создано"
+ru-RU:
+  <<: *DEFAULT_RU
